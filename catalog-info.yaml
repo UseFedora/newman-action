@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: newman-action
+  namespace: usefedora
+  description: ''
+  tags: []
+  annotations:
+    github.com/project-slug: Hotmart-Org/newman-action
+    backstage.io/techdocs-ref: dir:.
+  links: []
+spec:
+  type: service
+  lifecycle: production
+  owner: Learning
+  heimdall:
+    reportable: false
+    pci: false
+    products: []
+    squads: []
+    impact: ''
